@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Git Find
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt text](image.png)
 
-## Available Scripts
+## 📃Descrição
 
-In the project directory, you can run:
+Este projeto é uma aplicação React que permite pesquisar por usuários do GitHub e exibir suas informações, como nome, bio e repositórios. A aplicação interage com a API do GitHub para buscar os dados em tempo real.
 
-### `npm start`
+## 🚀 Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **HTML, CSS:** Linguagens padrão para estrutura e estilização de páginas web.
+- **JavaScript:** Linguagem de programação para lógica e interação com o DOM.
+- **API do GitHub:** Interface de programação para acessar dados públicos do GitHub.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚧 Pré-requisitos
 
-### `npm test`
+- **Node.js e npm (ou yarn)**: Certifique-se de ter o Node.js e o gerenciador de pacotes npm (ou yarn) instalados em seu sistema.
+- **Um editor de código:** Visual Studio Code, Sublime Text, Atom, etc.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📥 Instalação
 
-### `npm run build`
+1. Clone o repositório: `git clone https://github.com/Nickcarv18/git-find`
+2. Acesse a pasta do projeto: `cd git-find`
+3. Instale as dependências: `npm install`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Execução
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Inicie o servidor de desenvolvimento: `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A aplicação será aberta em seu navegador padrão, geralmente em <http://localhost:3000>.
 
-### `npm run eject`
+## 📌 Funcionalidades
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Busca de usuários**: Permite pesquisar por qualquer usuário do GitHub.
+- **Exibição de informações do usuário**:  Mostra o avatar, nome, bio e login do usuário pesquisado.
+- **Lista de repositórios**: Exibe uma lista com os nomes e descrições dos repositórios do usuário.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Estrutura do Código
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    git-find/
+    ├── node_modules/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── assets/
+    │   │   └── background.png
+    │   ├── components/
+    │   │   ├── Button/
+    │   │   ├── Header/
+    │   │   ├── Input/
+    │   │   └── ItemList/
+    │   ├── pages/
+    │   │   └── Home/
+    │   ├── styles.css
+    │   ├── .gitignore
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   └── README.md
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **components**: Contém componentes reutilizáveis como `Header`, `Button` e `ItemList`.
+- **pages**: Contém as páginas da aplicação, no caso, a página `Home`.
+- **styles.css**: Arquivo de estilo global.
+- **assets**: Contém arquivos de imagem e outros recursos estáticos.
 
-## Learn More
+## 🖌️ Layout
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/design/IXySq1eGSvvY9nSGLbKcom/GitFind?node-id=2-2&node-type=frame&t=utWwb7p0O2LTpsih-0). É necessário ter conta no [Figma](https://figma.com/) para acessá-lo.
