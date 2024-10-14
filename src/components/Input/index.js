@@ -1,8 +1,10 @@
-function Input() {
-  return (
-    <div className="App">
+import './styles.css';
 
-    </div>
+function Input({value, onChange}) {
+  return (
+    <input value={value} onChange={onChange} 
+      type="text" name="usuario" placeholder='@username' 
+    />
   );
 }
 

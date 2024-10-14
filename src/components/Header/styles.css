@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 52px;
+    width: 100%;
+    background-color: #2D333B;
+}
+
+h1{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.05px;
+    color: #FFFFFF;
+}

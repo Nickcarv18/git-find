@@ -1,8 +1,10 @@
-function Header() {
-  return (
-    <div className="App">
+import "./styles.css";
 
-    </div>
+const Header = () => {
+  return (
+    <header>
+      <h1>GitFind</h1>
+    </header>
   );
 }
 

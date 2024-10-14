@@ -1,8 +1,8 @@
-function Button() {
-  return (
-    <div className="App">
+import './styles.css';
 
-    </div>
+function Button({title, onClick}) {
+  return (
+    <button onClick={onClick}>{title}</button>
   );
 }
 
